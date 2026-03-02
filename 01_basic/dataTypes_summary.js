@@ -40,3 +40,9 @@ const newFunction = function(){
 newFunction();
 console.log(newObj);
 console.log(newarray);
+
+// ++++++++++++++++++++++++       MEMORY     ++++++++++++++++++++
+
+// Types of memory stack(). heap()
+// stack(Primitive) used in
+// heap(non-primitive)
