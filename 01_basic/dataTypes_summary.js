@@ -37,12 +37,21 @@ const newFunction = function(){
     console.log("Hello");
     
 }
-newFunction();
-console.log(newObj);
-console.log(newarray);
+// newFunction();
+// console.log(newObj);
+// console.log(newarray);
 
 // ++++++++++++++++++++++++       MEMORY     ++++++++++++++++++++
 
 // Types of memory stack(). heap()
 // stack(Primitive) used in
 // heap(non-primitive)
+
+let name = "abcd"
+
+let newname = name;
+newname = "xyz"
+
+
+console.log(name)
+console.log(newname)
